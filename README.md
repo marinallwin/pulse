@@ -54,6 +54,3 @@ src/
 - Network delays are simulated for realistic loading states
 - All data is generated client-side
 
-## License
-
-MIT
