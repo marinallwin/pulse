@@ -23,14 +23,14 @@ export function Hero() {
                     <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground text-balance max-w-2xl lg:max-w-3xl mx-auto mb-4 sm:mb-5 md:mb-6 lg:mb-8 px-2">
                         Pulse brings revenue, customer, order, and conversion data into one focused analytics workspace.
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 md:gap-4 justify-center px-2">
-                        <a href="/dashboard" className="w-full sm:w-auto">
-                            <Button size="lg" className="w-full sm:w-auto text-sm md:text-base">
+                    <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 md:gap-4 justify-center items-center px-2">
+                        <a href="/dashboard">
+                            <Button size="lg" className="text-sm md:text-base">
                                 Start for free <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
                         </a>
-                        <a href="#product" className="w-full sm:w-auto">
-                            <Button size="lg" variant="outline" className="w-full sm:w-auto text-sm md:text-base">
+                        <a href="#product">
+                            <Button size="lg" variant="outline" className="text-sm md:text-base">
                                 Explore dashboard
                             </Button>
                         </a>
